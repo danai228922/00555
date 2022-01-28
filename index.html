@@ -18,8 +18,11 @@
       const result = await liff.shareTargetPicker([
       {
   "type": "flex",
-  "altText": "this is a flex message",
+  "altText": "Mcucontest05",
   "contents":   {
+  "type": "carousel",
+  "contents": [
+    {
       "type": "bubble",
       "size": "giga",
       "body": {
@@ -57,7 +60,8 @@
         ],
         "paddingAll": "0px"
       }
-}},  {
+    },
+    {
       "type": "bubble",
       "size": "giga",
       "body": {
@@ -94,7 +98,9 @@
           }
         ],
         "paddingAll": "0px"
-      }},{
+      }
+    },
+    {
       "type": "bubble",
       "size": "giga",
       "body": {
@@ -132,6 +138,9 @@
         ],
         "paddingAll": "0px"
       }
+    }
+  ]
+}
         }
       ])
       if (result) {
